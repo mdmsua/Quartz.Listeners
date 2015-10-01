@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
-using Quartz;
 
-namespace QuartzSchedulerListeners
+namespace Quartz.Listeners
 {
     public sealed class EventLogSchedulerListener : ISchedulerListener
     {

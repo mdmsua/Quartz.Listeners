@@ -7,8 +7,8 @@
     <ProjectGuid>{2C4F2A0E-D637-4EA7-A278-BD49EFAE1DCC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuartzSchedulerListeners</RootNamespace>
-    <AssemblyName>QuartzSchedulerListeners</AssemblyName>
+    <RootNamespace>Quartz.Listeners</RootNamespace>
+    <AssemblyName>Quartz.Listeners</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

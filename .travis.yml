@@ -1,2 +1,2 @@
 language: csharp
-solution: QuartzSchedulerListeners.sln
+solution: Quartz.Listeners.sln
