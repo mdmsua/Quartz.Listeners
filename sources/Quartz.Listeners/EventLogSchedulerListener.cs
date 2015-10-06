@@ -13,7 +13,7 @@ namespace Quartz.Listeners
 
         public void JobScheduled(ITrigger trigger)
         {
-            this.eventLog.WriteEntry(string.Format(Resources.JobScheduled, trigger.JobKey.Name, trigger.JobKey.Group, trigger.Priority, trigger.Key.Name, trigger.Key.Group, trigger.Description, trigger.CalendarName));
+            this.eventLog.WriteEntry(string.Format(Resources.JobScheduled, trigger.JobKey.Name, trigger.JobKey.Group, trigger.Priority, trigger.Key.Name, trigger.Key.Group, trigger.Description, trigger.CalendarName, trigger.JobDataMap.AsString()));
         }
 
         public void JobUnscheduled(TriggerKey triggerKey)

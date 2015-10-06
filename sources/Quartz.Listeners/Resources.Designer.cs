@@ -64,7 +64,8 @@ namespace Quartz.Listeners {
         ///   Looks up a localized string similar to Job {0} ({1}) added.
         ///Description: {2}
         ///Type: {3}
-        ///.
+        ///Data:
+        ///{4}.
         /// </summary>
         internal static string JobAdded {
             get {
@@ -104,7 +105,9 @@ namespace Quartz.Listeners {
         ///Priority: {2}
         ///Trigger: {3} ({4})
         ///Description: {5}
-        ///Calendar: {6}.
+        ///Calendar: {6}
+        ///Data:
+        ///{7}.
         /// </summary>
         internal static string JobScheduled {
             get {
@@ -127,6 +130,15 @@ namespace Quartz.Listeners {
         internal static string JobsResumed {
             get {
                 return ResourceManager.GetString("JobsResumed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Job to be executed..
+        /// </summary>
+        internal static string JobToBeExecuted {
+            get {
+                return ResourceManager.GetString("JobToBeExecuted", resourceCulture);
             }
         }
         
