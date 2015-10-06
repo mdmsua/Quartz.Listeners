@@ -48,7 +48,7 @@ namespace Quartz.Listeners
 
         public void JobAdded(IJobDetail jobDetail)
         {
-            this.eventLog.WriteEntry(string.Format(Resources.JobAdded, jobDetail.Key.Name, jobDetail.Key.Group, jobDetail.Description, jobDetail.JobType.FullName));
+            this.eventLog.WriteEntry(string.Format(Resources.JobAdded, jobDetail.Key.Name, jobDetail.Key.Group, jobDetail.Description, jobDetail.JobType.FullName, jobDetail.JobDataMap.AsString()));
         }
 
         public void JobDeleted(JobKey jobKey)

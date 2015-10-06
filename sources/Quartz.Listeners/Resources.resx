@@ -189,4 +189,7 @@ Cause: {1}</value>
   <data name="TriggersResumed" xml:space="preserve">
     <value>Triggers in group {0} resumed.</value>
   </data>
+  <data name="JobToBeExecuted" xml:space="preserve">
+    <value>Job to be executed.</value>
+  </data>
 </root>
