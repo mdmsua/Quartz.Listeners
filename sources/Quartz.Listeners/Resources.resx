@@ -121,7 +121,8 @@
     <value>Job {0} ({1}) added.
 Description: {2}
 Type: {3}
-</value>
+Data:
+{4}</value>
   </data>
   <data name="JobDeleted" xml:space="preserve">
     <value>Job {0} ({1}) deleted.</value>
@@ -137,7 +138,9 @@ Type: {3}
 Priority: {2}
 Trigger: {3} ({4})
 Description: {5}
-Calendar: {6}</value>
+Calendar: {6}
+Data:
+{7}</value>
   </data>
   <data name="JobsPaused" xml:space="preserve">
     <value>Jobs in group {0} paused.</value>
@@ -185,5 +188,25 @@ Cause: {1}</value>
   </data>
   <data name="TriggersResumed" xml:space="preserve">
     <value>Triggers in group {0} resumed.</value>
+  </data>
+  <data name="JobToBeExecuted" xml:space="preserve">
+    <value>Job {0} ({1}) to be executed.
+Description: {2}
+Type: {3}
+Data:
+{4}</value>
+  </data>
+  <data name="EventLogJobListener" xml:space="preserve">
+    <value>Event Log job listener</value>
+  </data>
+  <data name="JobExecutionVetoed" xml:space="preserve">
+    <value>Job {0} ({1}) vetoed.</value>
+  </data>
+  <data name="JobWasExecuted" xml:space="preserve">
+    <value>Job {0} ({1}) was executed.</value>
+  </data>
+  <data name="JobWasExecutedException" xml:space="preserve">
+    <value>Job {0} ({1}) was executed with exception.
+Exception: {2}</value>
   </data>
 </root>

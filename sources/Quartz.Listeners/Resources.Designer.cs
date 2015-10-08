@@ -61,10 +61,20 @@ namespace Quartz.Listeners {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Event Log job listener.
+        /// </summary>
+        internal static string EventLogJobListener {
+            get {
+                return ResourceManager.GetString("EventLogJobListener", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Job {0} ({1}) added.
         ///Description: {2}
         ///Type: {3}
-        ///.
+        ///Data:
+        ///{4}.
         /// </summary>
         internal static string JobAdded {
             get {
@@ -78,6 +88,15 @@ namespace Quartz.Listeners {
         internal static string JobDeleted {
             get {
                 return ResourceManager.GetString("JobDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Job {0} ({1}) vetoed..
+        /// </summary>
+        internal static string JobExecutionVetoed {
+            get {
+                return ResourceManager.GetString("JobExecutionVetoed", resourceCulture);
             }
         }
         
@@ -104,7 +123,9 @@ namespace Quartz.Listeners {
         ///Priority: {2}
         ///Trigger: {3} ({4})
         ///Description: {5}
-        ///Calendar: {6}.
+        ///Calendar: {6}
+        ///Data:
+        ///{7}.
         /// </summary>
         internal static string JobScheduled {
             get {
@@ -131,12 +152,44 @@ namespace Quartz.Listeners {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Job {0} ({1}) to be executed.
+        ///Description: {2}
+        ///Type: {3}
+        ///Data:
+        ///{4}.
+        /// </summary>
+        internal static string JobToBeExecuted {
+            get {
+                return ResourceManager.GetString("JobToBeExecuted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Job unscheduled.
         ///Trigger: {0} ({1}).
         /// </summary>
         internal static string JobUnscheduled {
             get {
                 return ResourceManager.GetString("JobUnscheduled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Job {0} ({1}) was executed..
+        /// </summary>
+        internal static string JobWasExecuted {
+            get {
+                return ResourceManager.GetString("JobWasExecuted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Job {0} ({1}) was executed with exception.
+        ///Exception: {2}.
+        /// </summary>
+        internal static string JobWasExecutedException {
+            get {
+                return ResourceManager.GetString("JobWasExecutedException", resourceCulture);
             }
         }
         
