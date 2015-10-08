@@ -190,6 +190,22 @@ Cause: {1}</value>
     <value>Triggers in group {0} resumed.</value>
   </data>
   <data name="JobToBeExecuted" xml:space="preserve">
-    <value>Job to be executed.</value>
+    <value>Job {0} ({1}) to be executed.
+Description: {2}
+Type: {3}
+Data: {4}</value>
+  </data>
+  <data name="EventLogJobListener" xml:space="preserve">
+    <value>Event Log job listener</value>
+  </data>
+  <data name="JobExecutionVetoed" xml:space="preserve">
+    <value>Job {0} ({1}) vetoed.</value>
+  </data>
+  <data name="JobWasExecuted" xml:space="preserve">
+    <value>Job {0} ({1}) was executed.</value>
+  </data>
+  <data name="JobWasExecutedException" xml:space="preserve">
+    <value>Job {0} ({1}) was executed with exception.
+Exception: {2}</value>
   </data>
 </root>
