@@ -193,7 +193,8 @@ Cause: {1}</value>
     <value>Job {0} ({1}) to be executed.
 Description: {2}
 Type: {3}
-Data: {4}</value>
+Data:
+{4}</value>
   </data>
   <data name="EventLogJobListener" xml:space="preserve">
     <value>Event Log job listener</value>

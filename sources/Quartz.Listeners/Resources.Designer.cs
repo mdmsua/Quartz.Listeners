@@ -155,7 +155,8 @@ namespace Quartz.Listeners {
         ///   Looks up a localized string similar to Job {0} ({1}) to be executed.
         ///Description: {2}
         ///Type: {3}
-        ///Data: {4}.
+        ///Data:
+        ///{4}.
         /// </summary>
         internal static string JobToBeExecuted {
             get {
